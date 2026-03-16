@@ -24,48 +24,6 @@ That means:
 
 ---
 
-## Recommended project location in your repo
-
-Add this file here:
-
-```text
-docs/ENCODER-SETUP.md
-```
-
-Recommended repo structure:
-
-```text
-Anycubic-Kobra-Neo-BTT-Pi-v1.2-Klipper-Screen-Conversion/
-├── README.md
-├── docs/
-│   ├── PORTING-GUIDE.md
-│   ├── BTT-PI-CHANGES-CHANGELOG.md
-│   ├── ENCODER-SETUP.md
-│   └── images/
-├── third_party/
-│   └── KlipperScreen-Encoder-Driver/
-└── patches/
-    └── EncoderMouse-BTT.py
-```
-
----
-
-## README link to this guide
-
-If the link will live in the root `README.md`, use:
-
-```md
-[Encoder setup guide](docs/ENCODER-SETUP.md)
-```
-
-If the link will live inside another file in `docs/`, use:
-
-```md
-[Encoder setup guide](ENCODER-SETUP.md)
-```
-
----
-
 ## Step 1 — Clone your current SD card first
 
 Before changing anything, it is strongly recommended that you **clone your current working SD card / boot media**.
