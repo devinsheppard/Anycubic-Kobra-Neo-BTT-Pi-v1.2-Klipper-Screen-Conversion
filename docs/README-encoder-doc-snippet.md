@@ -10,4 +10,4 @@ The stock LCD path is not a touch UI by itself. Treat encoder / button support a
 
 The encoder setup guide is here:
 
-- [Encoder setup guide](docs/ENCODER-SETUP.md)
+- [Encoder setup guide](guides/ENCODER SETUP.md)

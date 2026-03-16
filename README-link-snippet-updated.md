@@ -13,7 +13,7 @@ Recommended placement:
 - [Full porting guide](guides/BTT-Pi_Kobra-Neo-Stock-Screen_Porting-Guide.md)
 - [Pinout conversion](guides/BTT-Pi-v1.2_Kobra-Neo-Stock-Screen_Pinout-Conversion.md)
 - [BTT Pi changes from the original Raspberry Pi guide](docs/BTT-Pi_Kobra-Neo-Stock-Screen_BTT-Changes-Only_CHANGELOG.md)
-- [Encoder setup guide](docs/ENCODER-SETUP.md)
+- [Encoder setup guide](guides/ENCODER-SETUP.md)
 ```
 
 ## Exact paths based on your folders
@@ -23,7 +23,7 @@ These links match the files shown in your screenshots:
 - `guides/BTT-Pi_Kobra-Neo-Stock-Screen_Porting-Guide.md`
 - `guides/BTT-Pi-v1.2_Kobra-Neo-Stock-Screen_Pinout-Conversion.md`
 - `docs/BTT-Pi_Kobra-Neo-Stock-Screen_BTT-Changes-Only_CHANGELOG.md`
-- `docs/ENCODER-SETUP.md`
+- `guides/ENCODER-SETUP.md`
 
 ## Where to add them in README.md
 
@@ -39,7 +39,7 @@ Short project description here.
 - [Full porting guide](guides/BTT-Pi_Kobra-Neo-Stock-Screen_Porting-Guide.md)
 - [Pinout conversion](guides/BTT-Pi-v1.2_Kobra-Neo-Stock-Screen_Pinout-Conversion.md)
 - [BTT Pi changes from the original Raspberry Pi guide](docs/BTT-Pi_Kobra-Neo-Stock-Screen_BTT-Changes-Only_CHANGELOG.md)
-- [Encoder setup guide](docs/ENCODER-SETUP.md)
+- [Encoder setup guide](guides/ENCODER-SETUP.md)
 
 ## Overview
 
