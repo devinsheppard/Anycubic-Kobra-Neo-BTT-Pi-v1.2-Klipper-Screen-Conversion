@@ -6,6 +6,13 @@ The original Kobra Go/Neo LCD project is based on a Raspberry Pi path for the st
 
 BIGTREETECH’s CB1/BTT Pi documentation uses **`/boot/BoardEnv.txt`** overlays such as **`spidev1_2`** to expose SPI devices to userspace, which is one of the main reasons the Raspberry Pi instructions do not carry over unchanged. ([BIGTREETECH CB1 docs](https://github.com/bigtreetech/docs/blob/master/docs/CB1.md))
 
+## Documentation
+
+- [Full porting guide](guides/BTT-Pi_Kobra-Neo-Stock-Screen_Porting-Guide.md)
+- [Pinout conversion](guides/BTT-Pi-v1.2_Kobra-Neo-Stock-Screen_Pinout-Conversion.md)
+- [BTT Pi changes from the original Raspberry Pi guide](docs/BTT-Pi_Kobra-Neo-Stock-Screen_BTT-Changes-Only_CHANGELOG.md)
+- [Encoder setup guide](guides/ENCODER-SETUP.md)
+
 ## Important first recommendation
 
 Before starting this project, **clone or image your current working SD card / system storage**.
@@ -59,10 +66,11 @@ The stock LCD itself is not touch, so interactive control is a separate second p
 - **Step 1 overlay/setup notes** — enables SPI userspace access on BTT Pi
 - **Main porting guide** — full step-by-step guide from backup through deployment
 - **BTT changes changelog** — separate list of changes from the original Raspberry Pi path
+- **Encoder setup guide** — documents the BTT Pi encoder phase and repo placement
 
 ## Rotary / button support
 
-The original stock-screen path is not a touch UI by itself. If you want the **rotary encoder / button** to be usable, treat that as a second phase after the display path is proven working. The ecosystem around the Kobra Go/Neo LCD includes encoder-focused work intended to make knob-based interaction possible, but that should come **after** LCD bring-up, not before. ([Encoder-support fork](https://github.com/MrBult/Anycubic-Kobra-Go-Neo-LCD-Driver))
+The original stock-screen path is not a touch UI by itself. If you want the **rotary encoder / button** to be usable, treat that as a second phase after the display path is proven working. The ecosystem around the Kobra Go/Neo LCD includes encoder-focused work intended to make knob-based interaction possible, but that should come **after** LCD bring-up, not before. ([Encoder setup guide](guides/ENCODER-SETUP.md))
 
 Recommended order:
 1. get the LCD to light and draw reliably
